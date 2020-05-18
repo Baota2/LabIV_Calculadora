@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import bruno.fatec.labiv.core.OperacoesPage;
 
-public class CalculadoraTest extends OperacoesPage {
+public class Calculadora extends OperacoesPage {
 	
 	private OperacoesPage page = new OperacoesPage();
 
