@@ -35,4 +35,10 @@ public class CalculadoraTest extends OperacoesPage {
 		double resultado = page.divisao(3, 2);
 		assertEquals(1.5, resultado, 0);
 	}
+	
+	@Test
+	public void porcentagemDeValor() {
+		double resultado = page.porcentagem(25, 48);
+		assertEquals(12, resultado, 0);
+	}
 }
