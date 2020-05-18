@@ -1,6 +1,6 @@
 package bruno.fatec.labiv.core;
 
-public class OperacoesPage {
+public class Calculadora {
 	
 	public double adicao (double valor1, double valor2) {
 		return (valor1 + valor2);

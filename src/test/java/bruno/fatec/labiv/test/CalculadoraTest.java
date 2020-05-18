@@ -4,11 +4,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import bruno.fatec.labiv.core.OperacoesPage;
+import bruno.fatec.labiv.core.Calculadora;
 
-public class CalculadoraTest extends OperacoesPage {
+public class CalculadoraTest extends Calculadora {
 	
-	private OperacoesPage page = new OperacoesPage();
+	private Calculadora page = new Calculadora();
 
 	
 
