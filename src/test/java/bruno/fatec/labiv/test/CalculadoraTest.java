@@ -6,11 +6,9 @@ import org.junit.Test;
 
 import bruno.fatec.labiv.core.Calculadora;
 
-public class CalculadoraTest extends Calculadora {
+public class CalculadoraTest {
 	
-	private Calculadora page = new Calculadora();
-
-	
+	private Calculadora page = new Calculadora();	
 
 	@Test
 	public void adicaoDeValores() {
