@@ -8,35 +8,35 @@ import bruno.fatec.labiv.core.Calculadora;
 
 public class CalculadoraTest {
 	
-	private Calculadora page = new Calculadora();	
+	private Calculadora calculadora = new Calculadora();
 
 	@Test
 	public void adicaoDeValores() {
-		double resultado = page.adicao(2, 2);
+		double resultado = calculadora.adicao(2, 2);
 		assertEquals(4, resultado, 0);
 	}
 	
 	@Test
 	public void subtracaoDeValores() {
-		double resultado = page.subtracao(5, 4);
+		double resultado = calculadora.subtracao(5, 4);
 		assertEquals(1, resultado, 0);
 	}
 	
 	@Test
 	public void multiplicacoDeValores() {
-		double resultado = page.multiplicacao(1.5, 2);
+		double resultado = calculadora.multiplicacao(1.5, 2);
 		assertEquals(3, resultado, 0);
 	}
 	
 	@Test
 	public void divisaoDeValores() {
-		double resultado = page.divisao(3, 2);
+		double resultado = calculadora.divisao(3, 2);
 		assertEquals(1.5, resultado, 0);
 	}
 	
 	@Test
 	public void porcentagemDeValor() {
-		double resultado = page.porcentagem(25, 48);
+		double resultado = calculadora.porcentagem(25, 48);
 		assertEquals(12, resultado, 0);
 	}
 }
